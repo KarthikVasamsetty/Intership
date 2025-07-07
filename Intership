@@ -1,1 +1,489 @@
+                                     WEEK-1
+CODE:  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <!-- Main Heading -->
+    <h1>Vasamsetty Karthik </h1>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a passionate and dedicated individual with a background in .
+            I love exploring new technologies and building projects that make a difference.
+            In my free time, I enjoy . I'm always eager to learn and grow.
+        </p>
+    </section>
+
+    <!-- Skills and Interests Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Basic C Programming</li>
+        </ul>
+
+        <h2>Interests</h2>
+        <ol>
+            <li>Web Development</li>
+            <li>Problem Solving</li>
+            <li>Reading Tech Blogs</li>
+        </ol>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <h3>Portfolio Website</h3>
+        <p>This is the website you are currently viewing, built using basic HTML concepts.</p>
+        <a href="#">View Project</a>
+
+        <h3>Weather App</h3>
+        <p>A simple weather forecasting app using an open API.</p>
+        <a href="#">View Project</a>
+
+        <h3>To-Do List</h3>
+        <p>A basic to-do list manager with add, delete, and mark-done functionalities.</p>
+        <a href="#">View Project</a>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>
+            <a href="https://github.com/yourgithub" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+        </p>
+    </section>
+</body>
+</html>
+
+
+
+                                  Week-2
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internship Programs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 40px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      color: #000;
+    }
+
+    .card ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Internship Programs</h1>
+
+  <div class="grid-container">
+
+    <div class="card">
+      <h2>Web Development Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>App Development Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>Python Programming Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+
+    <div class="card">
+      <h2>Java Programming Internship Program</h2>
+      <ul>
+        <li>Duration: 1 month / 2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="#" class="btn">View Details</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+
+Week-3
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Registration Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .gender-options {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .terms {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .terms input {
+      margin-right: 10px;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px;
+      border: none;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    .error {
+      color: red;
+      font-size: 0.9rem;
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>User Registration</h2>
+    <form id="registrationForm" onsubmit="return validateForm()">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+      <div class="error" id="passwordError"></div>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label>Gender</label>
+      <div class="gender-options">
+        <label><input type="radio" name="gender" value="Male" required> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+        <label><input type="radio" name="gender" value="Other"> Other</label>
+      </div>
+
+      <div class="terms">
+        <input type="checkbox" id="terms" required>
+        <label for="terms">I accept the Terms and Conditions</label>
+      </div>
+
+      <button type="submit" class="btn">Register</button>
+    </form>
+  </div>
+
+  <script>
+    function validateForm() {
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+      const errorDiv = document.getElementById("passwordError");
+
+      if (password !== confirmPassword) {
+        errorDiv.textContent = "Passwords do not match!";
+        return false;
+      } else {
+        errorDiv.textContent = "";
+        return true;
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+                                  WEEK-4
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Booking System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #83a4d4, #b6fbff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .booking-form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .btn {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #218838;
+    }
+
+    .success-message {
+      display: none;
+      margin-top: 15px;
+      text-align: center;
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="booking-form">
+    <h2>Online Booking Form</h2>
+    <form id="bookingForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="date">Booking Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Booking Time</label>
+      <input type="time" id="time" name="time" required>
+
+      <label for="service">Service Type</label>
+      <select id="service" name="service" required>
+        <option value="">--Select--</option>
+        <option value="Consultation">Consultation</option>
+        <option value="Appointment">Appointment</option>
+        <option value="Reservation">Reservation</option>
+      </select>
+
+      <button type="submit" class="btn">Book Now</button>
+      <div class="success-message" id="successMessage">✔ Booking Successful!</div>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById('bookingForm');
+    const successMessage = document.getElementById('successMessage');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Stop default form submission
+      successMessage.style.display = 'block'; // Show confirmation
+      form.reset(); // Reset form fields
+    });
+  </script>
+
+</body>
+</html>
+
+
+ 
 
